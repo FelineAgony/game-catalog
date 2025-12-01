@@ -73,7 +73,7 @@ function App() {
                <path d="M2 17L12 22L22 17" stroke="#66c0f4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                <path d="M2 12L12 17L22 12" stroke="#66c0f4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
-            WASM <span>STORE</span>
+            Ayre <span>STORE</span>
           </div>
           <nav className="nav-menu">
             <a href="#" className="nav-item active">STORE</a>

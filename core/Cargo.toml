@@ -13,3 +13,10 @@ serde-wasm-bindgen = "0.6"
 js-sys = "0.3"
 getrandom = { version = "0.2", features = ["js"] }
 rand = "0.8"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
