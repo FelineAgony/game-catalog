@@ -1,0 +1,14 @@
+D:\Main\Work\VS_Code\game-catalog\core\target\wasm32-unknown-unknown\release\deps\serde-ce555fe7bf706f3d.d: C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs D:\Main\Work\VS_Code\game-catalog\core\target\wasm32-unknown-unknown\release\build\serde-f874f0779bed5983\out/private.rs
+
+D:\Main\Work\VS_Code\game-catalog\core\target\wasm32-unknown-unknown\release\deps\libserde-ce555fe7bf706f3d.rlib: C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs D:\Main\Work\VS_Code\game-catalog\core\target\wasm32-unknown-unknown\release\build\serde-f874f0779bed5983\out/private.rs
+
+D:\Main\Work\VS_Code\game-catalog\core\target\wasm32-unknown-unknown\release\deps\libserde-ce555fe7bf706f3d.rmeta: C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs D:\Main\Work\VS_Code\game-catalog\core\target\wasm32-unknown-unknown\release\build\serde-f874f0779bed5983\out/private.rs
+
+C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\denia\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+D:\Main\Work\VS_Code\game-catalog\core\target\wasm32-unknown-unknown\release\build\serde-f874f0779bed5983\out/private.rs:
+
+# env-dep:OUT_DIR=D:\\Main\\Work\\VS_Code\\game-catalog\\core\\target\\wasm32-unknown-unknown\\release\\build\\serde-f874f0779bed5983\\out
