@@ -1,0 +1,43 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [ "main" ]
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        
+      - name: Install wasm-pack
+        run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+        
+      - name: Build Wasm
+        working-directory: ./core
+        run: wasm-pack build --target web
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+          
+      - name: Install Frontend Dependencies
+        working-directory: ./ui
+        run: npm install
+        
+      - name: Build Frontend
+        working-directory: ./ui
+        run: npm run build
+        
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: ui/dist
+          branch: gh-pages
